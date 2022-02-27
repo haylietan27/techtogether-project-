@@ -1,0 +1,239 @@
+body {
+  background-image: url('https://cdn.discordapp.com/attachments/945925241836818442/947532631208247306/Skyline-Chicago_edited.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.half1 {
+  width: 50%; 
+}
+
+.row {
+  height: 100%;
+  text-align: center;
+  text-color: white;
+  background-color: transparent;
+}
+
+.col-sm-4 {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 100%;
+  padding: 5%;
+  background-color: #CE7BB0;
+  border: 2px solid #fff;
+}
+
+.home {
+  filter: brightness(200%);
+}
+
+#quote {
+  margin: 50px;
+  color: white;
+  width: 75%;
+  margin: auto;
+}
+
+.font p {
+  text-color: black;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: white;
+  opacity: 75%;
+  border: 3px solid white;
+  padding: 10px;
+  transition: all .2s ease-in-out; 
+  border-radius: 25px;
+  text-color: black;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.containerff {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 10px;
+  transition: all .2s ease-in-out; 
+  border-radius: 25px;
+  text-color: black;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.containerff:hover{
+  background-color: #FFBCD1;
+  transform: scale(1.1);
+}
+.video{
+  text-align: center;
+}
+
+
+.container:hover{
+  opacity: 100%;
+  transform: scale(1.05); 
+}
+
+.subhead {
+  font-family: 'League Spartan', sans-serif;
+  text-transform: uppercase;
+  text-color: black;
+}
+
+.topper {
+  text-align: center;
+  width: 100%;
+  margin: 20px;
+  margin-bottom: 30px;
+  opacity: 75%;
+  font-family: 'League Spartan', sans-serif;
+  text-transform: uppercase;
+}
+
+header {
+text-align: center;
+font-size: 28px;
+font-weight: 600;
+font-family: 'League Spartan', sans-serif;
+padding: 20px;
+display: flex;
+flex-flow: row wrap;
+margin: auto;
+justify-content: space-between;
+}
+
+h1 {
+  color: white;
+  font-family: 'League Spartan', sans-serif;
+  text-align: center;
+}
+
+h2 {
+font-family: 'League Spartan', sans-serif;
+text-align: center;
+color: black;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 25px;
+  background-color: rgba(202, 228, 241, 0.938);
+  padding: 10px;
+}
+#container {
+  width:900px;
+  margin: 0 auto;
+}
+.col1, .col2, .col3{
+  float:left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+  margin:10px;
+  text-align: justify;
+}
+.col1{
+  background-color: #E3F2FD
+}
+.col2{
+  background-color: #E3F2FD
+}
+.col3{
+  background-color: #E3F2FD
+}
+
+#chicagobears{
+  flex-wrap:no-wrap;
+}
+#chicagocubs{
+  flex-wrap:no-wrap;
+}
+#chicagobulls{
+ flex-wrap:no-wrap;
+}
+
+.home {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  }
+
+p {
+  font-family: 'League Spartan', sans-serif;
+}
+
+.bigtext {
+  text-align:center;
+  font-size:70px;
+  font-family: 'League Spartan', sans-serif;
+  margin: auto;
+  width: 75%;
+  margin-bottom: 40px;
+  display: block;
+  flex-flow: row wrap;
+  justify-content:center;
+  align-items: center;
+}
+
+  /* STYLE pages */
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0.5em;
+  text-align: front;
+  font-family: 'League Spartan', sans-serif;
+  display: flex;
+  flex-flow: column wrap;
+  align-items:center;
+  justify-content:center;
+  margin:15px;
+}
+li{
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
+  height:40px;
+  width:160px;
+  color:white;
+  border:black;
+  font-weight: bold;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  margin:20px;
+  
+}
+li a {
+color: black;
+background-color: white;
+text-decoration:none;
+font-size:1.6em;
+margin:1%;
+padding: 0.5em;
+font-weight: 540;
+text-align: center;
+justify-content: space-around;
+transition: all .2s ease-in-out; 
+}
+
+li a:hover{
+  background-color: rgb(186, 143, 229);
+  transform: scale(1.1);
+}
+
+
+
+
