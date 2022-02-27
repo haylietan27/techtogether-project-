@@ -24,7 +24,7 @@ body {
   -webkit-box-sizing: border-box;
   height: 100%;
   padding: 5%;
-  background-color: #CE7BB0;
+  background-color: #dea1c7;
   border: 2px solid #fff;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 .containerff:hover{
-  background-color: #FFBCD1;
+  background-color: #fcd4e1;
   transform: scale(1.1);
 }
 .video{
@@ -112,6 +112,7 @@ display: flex;
 flex-flow: row wrap;
 margin: auto;
 justify-content: space-between;
+  color: white;
 }
 
 h1 {
@@ -133,10 +134,12 @@ color: black;
   margin-right: 25px;
   background-color: rgba(202, 228, 241, 0.938);
   padding: 10px;
+  font-family: 'League Spartan', sans-serif;
 }
 #container {
   width:900px;
   margin: 0 auto;
+  font-family: 'League Spartan', sans-serif;
 }
 .col1, .col2, .col3{
   float:left;
@@ -145,6 +148,7 @@ color: black;
   height: 300px;
   margin:10px;
   text-align: justify;
+  font-family: 'League Spartan', sans-serif;
 }
 .col1{
   background-color: #E3F2FD
@@ -208,7 +212,7 @@ li{
   height:40px;
   width:160px;
   color:white;
-  border:black;
+  border:none;
   font-weight: bold;
   display: flex;
   align-items:center;
@@ -226,12 +230,19 @@ padding: 0.5em;
 font-weight: 540;
 text-align: center;
 justify-content: space-around;
-transition: all .2s ease-in-out; 
+transition: all 0.3s ease-in-out; 
 }
 
 li a:hover{
-  background-color: rgb(186, 143, 229);
+  background-color: #ccaeea;
   transform: scale(1.1);
+  border-radius:15%;
+  box-shadow:
+                1px 1px #c0d8ed,
+                2px 2px #c0d8ed,
+                3px 3px #c0d8ed;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
 }
 
 
