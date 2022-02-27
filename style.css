@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
 body {
   background-image: url('https://cdn.discordapp.com/attachments/945925241836818442/947532631208247306/Skyline-Chicago_edited.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: #ffffff;
-  font-family: 'League Spartan', sans-serif;
+  font-family: 'League Spartan';
 }
 
 .half1 {
